@@ -112,7 +112,7 @@ This entire pipeline works reliably even if Gemini is unavailable, thanks to my 
 
 # 🔥 Highlight Features
 
-## 🧩 **1. Multi-Agent System (My Core Design)**
+## 🧩 **Multi-Agent System (My Core Design)**
 
 I built four independent agents with single responsibilities:
 
@@ -125,7 +125,7 @@ Clean architecture. Clear flow. Realistic behavior.
 
 ---
 
-## ⚙️ **2. AI-Powered Strategy Planning (Gemini 1.5 Flash)**
+## ⚙️ **AI-Powered Strategy Planning (Gemini 1.5 Flash)**
 
 My planner agent uses Gemini to generate:
 
@@ -142,7 +142,7 @@ If Gemini isn’t available, my system **self-recovers** using a structured fall
 
 ---
 
-## 🧾 **3. Memory Bank (Long-Term Context)**
+## 🧾 **Memory Bank (Long-Term Context)**
 
 Each run stores:
 
@@ -156,7 +156,7 @@ Each run stores:
 
 ```
 
-## 🛰️ **4. Observability (Transparent Logging)**
+## 🛰️ **Observability (Transparent Logging)**
 
 ```bash
 [DataCollectorAgent] Collecting data…
@@ -164,7 +164,7 @@ Each run stores:
 [StrategyPlannerAgent] Plan generated using Gemini ✔
 
 ```
-## 🔐 **5. Secure Gemini Integration**
+## 🔐 **Secure Gemini Integration**
 
 I implemented zero-leak Gemini handling:
    - Kaggle Notebook → UserSecretsClient
@@ -173,7 +173,7 @@ I implemented zero-leak Gemini handling:
 The system never exposes sensitive keys in code or output.
 
 
-## 📂 **6. Project Structure**
+## 📂 **Project Structure**
 
 ```bash
 DRRA-Agent/
@@ -208,7 +208,7 @@ DRRA-Agent/
 
 ```
 
-## 🚀  **7. Running the Project Locally**
+## 🚀  **Running the Project Locally**
 ### 1️⃣ Create virtual environment
 ```bash 
 python -m venv venv
@@ -226,7 +226,7 @@ setx GEMINI_API_KEY "your-key"
 ```bash 
 python run.py
 ```
-## 📝 **8. Example Output**
+## 📝 **Example Output**
 ```bash
 [DataCollectorAgent] Collecting data…
 [ResourceAnalyzerAgent] Analysis: risk 82.5
@@ -234,7 +234,7 @@ python run.py
 [DeploymentAgent] Checklist ready
 ```
 
-## 🎯 **9. What This Project Demonstrates (My Intent)**
+## 🎯 **What This Project Demonstrates (My Intent)**
 
 I engineered this project to show:
    - Real multi-agent architecture
@@ -248,7 +248,7 @@ I engineered this project to show:
 
 To me, this project is not just a submission — it is a personal milestone in my AI engineering journey.
 
-## 🏆 **10. Why I Believe This Project Deserves to Win**
+## 🏆 **Why I Believe This Project Deserves to Win**
 ```bash
 ✔️ Strong, meaningful real-world use case
 
@@ -273,7 +273,7 @@ To me, this project is not just a submission — it is a personal milestone in m
 
 I built DRRA-Agent with intention, detail, and care — aiming for something that looks and feels like a professional AI system, not just a capstone demonstration.
 
-## 🙌 **11. Credits & Acknowledgements**
+## 🙌 **Credits & Acknowledgements**
 Huge thanks to: 
   - Google & Kaggle for the amazing Agents Intensive
   - Gemini for powering the planner agent
