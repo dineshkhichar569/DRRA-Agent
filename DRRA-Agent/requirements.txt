@@ -1,0 +1,7 @@
+# Core dependencies for DRRA-Agent
+python-dateutil
+dataclasses-json
+
+
+
+google-generativeai

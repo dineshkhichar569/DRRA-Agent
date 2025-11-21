@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment folders
+venv/
+.env/
+.venv/
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# Memory JSON data
+src/memory/disaster_memory.json
+
+# Logs
+*.log
+
+# IDE configs
+.vscode/
+.idea/
