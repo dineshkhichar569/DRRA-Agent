@@ -8,6 +8,10 @@
 
 **DRRA-Agent** is my end-to-end **multi-agent disaster-response system**, built as my capstone project for the **Kaggle 5-Day AI Agents Intensive**.
 
+
+![Thumbnail](/DRRA-Agent/Thumbnail.jpg)
+
+
 This system takes a simple natural-language input like:
 
 > “Severe flood in coastal city of X”
@@ -56,7 +60,12 @@ DRRA-Agent is the result — a system that can **reason, plan and act** like an 
 ---
 
 # 🧠 System Architecture  
-### **My Multi-Agent Pipeline**
+
+### *DRRA-Agent Pipeline Flowchart*
+
+![DRRA-Agent Flow Chart](/DRRA-Agent/flow_Chart.jpg)
+
+### *My Multi-Agent Pipeline*
 
 ```bash
 
